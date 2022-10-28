@@ -2195,7 +2195,6 @@ input, select, textarea {
 	filter: grayscale(0.5);
 	color: rgb(1, 0, 0);
 	position: relative;
-
 }
 
 .work:hover {
@@ -2212,4 +2211,8 @@ input, select, textarea {
 
 .job-title{
 	color:rgb(0, 0, 0)
+}
+
+.rounded {
+	border-radius: 0.5rem;
 }
