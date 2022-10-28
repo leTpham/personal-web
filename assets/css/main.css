@@ -2218,3 +2218,42 @@ input, select, textarea {
 .gh {
 	text-align:center
 }
+
+ /* Icons grid from ethreal */
+
+ul.grid-icons {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	list-style: none;
+	margin: 0 0 1.5rem 0;
+	padding-left: 0;
+}
+
+ul.grid-icons .icon {
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+	ul.grid-icons .icon:before {
+		display: block;
+		width: 6rem;
+		height: 6rem;
+		line-height: 6rem;
+		border-radius: 6rem;
+		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+		font-size: 2.5rem;
+		margin: 0 auto;
+		text-align: center;
+	}
