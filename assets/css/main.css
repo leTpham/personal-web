@@ -2189,3 +2189,23 @@ input, select, textarea {
 			}
 
 		}
+.work {
+	transition: transform .2s;
+	opacity: 0.8;
+	filter: grayscale(0.5);
+
+
+}
+
+.work:hover {
+	transform: scale(1.2);
+	opacity: 1;
+	filter: grayscale(0);
+	box-shadow: 2px 2px 2px 2px #e2dada48;
+	z-index: 2;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-end;
+}
