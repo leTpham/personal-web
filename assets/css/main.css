@@ -2198,7 +2198,6 @@ input, select, textarea {
 	opacity: 0.8;
 	filter: grayscale(0.5);
 	color: rgb(1, 0, 0);
-	position: relative;
 }
 
 .work:hover {
@@ -2207,11 +2206,6 @@ input, select, textarea {
 	filter: grayscale(0);
 }
 
-.wrapper {
-    position: fixed;
-	bottom: 2em;
-
-}
 
 .job-title{
 	color:rgb(0, 0, 0)
@@ -2219,4 +2213,8 @@ input, select, textarea {
 
 .rounded {
 	border-radius: 0.5rem;
+}
+
+.gh {
+	text-align:center
 }
