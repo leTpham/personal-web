@@ -12,7 +12,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta http-equiv="Content-Security-Policy"
 			content="script-src 'self';
-					style-src 'self' https://www.unpkg.com/bootstrap-icons/font/bootstrap-icons.css https://fonts.googleapis.com/css;
+					style-src 'self' https://www.unpkg.com/bootstrap-icons/font/bootstrap-icons.css
+					https://fonts.googleapis.com/css
+					https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css;
 					img-src *;
 					navigate-to 'self' https://www.loom.com/share/f442609c6a894132a2db78b933e9ec64
 					https://github.com/leTpham/friender-backend
@@ -26,6 +28,8 @@
 					 "/>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://www.unpkg.com/bootstrap-icons/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -40,7 +44,7 @@
 		<nav id="nav">
 			<a href="#" class="icon solid fa-home"><span>Home</span></a>
 			<a href="#skills" class="bi bi-gear-fill"><span>Skills</span></a>
-			<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+			<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
 			<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
 			<!-- <a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a> -->
 		</nav>
@@ -61,7 +65,7 @@
 			</article>
 
 			<!-- Skills -->
-			<article id="skills" class="panel">
+			<article id="skills" class="panel slide">
 				<header>
 					<h2>Skills</h2>
 				</header>
@@ -86,9 +90,9 @@
 			</article>
 
 			<!-- Work -->
-			<article id="work" class="panel ">
+			<article id="projects" class="panel slide ">
 				<header>
-					<h2>Work</h2>
+					<h2>Projects</h2>
 				</header>
 				<!-- <p>
 					Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
@@ -96,12 +100,11 @@
 					luctus elit eget interdum.
 				</p> -->
 				<section>
-					<div class="row justify-content-md-center mx-auto">
+					<div class="row">
 
 						<div class="col-6 col-6-medium col-12-small work card">
 							<span><h3>Internship at Foqal.io</h3>
 							</span>
-							<br>
 							<div class="card-body">
 							<img src="images/table-view.jpg" class="image fit rounded" alt="a screenshot of Foqal.io's ticket page">
 							<p class="description">A new interface (Table view) for the display of customer-support tickets on Foqal's web portal.
@@ -116,9 +119,7 @@
 
 						<div class="col-6 col-6-medium col-12-small work card">
 							<span><h3>Friender</h3>
-
 							</span>
-							<br>
 							<div class="card-body">
 
 									<img src="images/friends.jpg" alt="two human-shaped wooden cutout high-fiving"
@@ -137,7 +138,6 @@
 							<span><h3>Jobly</h3>
 
 							</span>
-							<br>
 							<div class="card-body">
 								<img src="images/job.jpg" alt="a man looking for a job with a magnifier" class="image fit rounded">
 
@@ -151,9 +151,7 @@
 						</div>
 
 						<div class="col-6 col-6-medium col-12-small work card">
-							<span><h3>Warbler</h3>
-							</span>
-							<br>
+							<span><h3>Warbler</h3></span>
 							<div class="card-body">
 								<img src="images/warbler.jpg" alt="picture of a yellow warbler" class="image fit rounded">
 								<p class="description">a Twitter clone with Python/Flask backend and Jinja frontend.
@@ -172,7 +170,7 @@
 			</article>
 
 			<!-- Contact -->
-			<article id="contact" class="panel">
+			<article id="contact" class="panel slide">
 				<header>
 					<h2>Contact Me</h2>
 				</header>
@@ -195,30 +193,6 @@
 							</ul>
 						</div>
 
-
-
-
-
-
-
-
-
-
-
-						<!-- <div class="span-1-25">
-						<ul class="contact-icons color2">
-							<li>
-								<a href="https://github.com/leTpham"><span class="icon bi-github"></span>
-								</a>
-							</li>
-
-							<li>
-								<a href="https://github.com/leTpham"><span class="icon bi-linkedin"></span>
-								</a>
-							</li>
-
-						</ul>
-					</div> -->
 				</section>
 			</article>
 

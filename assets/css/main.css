@@ -1375,15 +1375,17 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.8em;
+		font-size: 2em;
 		letter-spacing: -0.015em;
 		margin-bottom: 0em;
 	}
+
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
 		margin-top: 1em;
+		margin-bottom: 0.5em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2353,26 +2355,29 @@ ul.grid-icons {
 
 a {
 	text-decoration: none;
+
 }
 
 a:visited {
 	color: black;
 }
 
-a:hover {
+/* a:hover {
 	color: white;
-}
+	transition: color .5s;
+} */
 
 .contact {
-	transition: transform .2s;
+	transition: transform .7s;
 	opacity: 0.8;
 	filter: grayscale(0.5);
 	color: rgb(1, 0, 0);
+	padding: 0em 2em;
 }
 
 
 .contact:hover {
-	transform: scale(1.2);
+	transform: scale(1.5);
 	opacity: 1;
 	filter: grayscale(0);
 }
@@ -2439,4 +2444,8 @@ a:hover {
 .ghloom {
 	text-align:center;
 	font-size: 1em;
+}
+
+.slide {
+	text-align: center;
 }
