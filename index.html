@@ -10,8 +10,7 @@
 	<title>Le Pham</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta http-equiv="Content-Security-Policy"
-			content="script-src 'self';
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self';
 					style-src 'self' https://www.unpkg.com/bootstrap-icons/font/bootstrap-icons.css
 					https://fonts.googleapis.com/css
 					https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css;
@@ -25,7 +24,7 @@
 					https://ltp-warbler.herokuapp.com/
 					https://github.com/leTpham
 					https://www.linkedin.com/in/letpham/
-					 "/>
+					 " />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://www.unpkg.com/bootstrap-icons/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
@@ -43,7 +42,8 @@
 		<!-- Nav -->
 		<nav id="nav">
 			<a href="#" class="icon solid fa-home"><span>Home</span></a>
-			<a href="#skills" class="bi bi-gear-fill"><span>Skills</span></a>
+			<a href="#about" class="bi bi-person-bounding-box"><span>About</span></a>
+			<a href="#skills" class="bi bi-gear-wide"><span>Skills</span></a>
 			<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
 			<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
 			<!-- <a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a> -->
@@ -58,11 +58,26 @@
 					<h1>Le Pham</h1>
 					<p class="job-title">Full Stack Software Engineer </p>
 				</header>
-				<a href="#skills" class="jumplink pic">
-					<span class="arrow icon solid fa-chevron-right"><span>See my skills</span></span>
+				<a href="#about" class="jumplink pic">
+					<span class="arrow icon solid fa-chevron-right"><span>See more about me!</span></span>
 					<img src="images/chle.png" alt="" />
 				</a>
 			</article>
+
+			<!-- Me -->
+			<article id="about" class="panel intro">
+				<header>
+					<h1>Hi!</h1>
+					<h6> I'm Le, and I'm a software engineer located in Oakland, CA.
+
+
+					</h6>
+				</header>
+
+			</article>
+
+
+
 
 			<!-- Skills -->
 			<article id="skills" class="panel">
@@ -143,64 +158,72 @@
 					<div class="row">
 
 						<div class="col-6 col-12-medium col-12-small work card">
-							<span><h3>Internship at Foqal.io</h3>
+							<span>
+								<h3>Internship at Foqal.io</h3>
 							</span>
 							<div class="card-body">
-							<img src="images/table-view.jpg" class="image fit rounded" alt="a screenshot of Foqal.io's ticket page">
-							<p class="description">A new interface (Table view) for the display of customer-support tickets on Foqal's web portal.
-								<br>
-								<a href="https://www.loom.com/share/f442609c6a894132a2db78b933e9ec64" class="bi bi-camera-video-fill ghloom">
-								<!-- <em><u>Loom demo</u></em> -->
-								</a>
-							</p>
-						</div>
+								<img src="images/table-view.jpg" class="image fit rounded" alt="a screenshot of Foqal.io's ticket page">
+								<p class="description">A new interface (Table view) for the display of customer-support tickets on
+									Foqal's web portal.
+									<br>
+									<a href="https://www.loom.com/share/f442609c6a894132a2db78b933e9ec64"
+										class="bi bi-camera-video-fill ghloom">
+										<!-- <em><u>Loom demo</u></em> -->
+									</a>
+								</p>
+							</div>
 
 
 						</div>
 
 						<div class="col-6 col-12-medium col-12-small work card">
-							<span><h3>Friender</h3>
+							<span>
+								<h3>Friender</h3>
 							</span>
 							<div class="card-body">
 
-									<img src="images/friends.jpg" alt="two human-shaped wooden cutout high-fiving"
-										class="image fit rounded">
+								<img src="images/friends.jpg" alt="two human-shaped wooden cutout high-fiving"
+									class="image fit rounded">
 								<p class="description"> A platonic Tinder clone with Python/Flask backend and JavaScript/React frontend.
 									<br>
 									<a href="https://github.com/leTpham/friender-backend" class="bi bi-github ghloom"></a> |
 									<a href="https://friender-ltp.surge.sh/" class="bi bi-globe2"></a>
-								<!-- <a href="https://github.com/leTpham/friender-frontend" class="bi bi-github"><span>frontend</span></a> -->
+									<!-- <a href="https://github.com/leTpham/friender-frontend" class="bi bi-github"><span>frontend</span></a> -->
 								</p>
 							</div>
 
 						</div>
 
 						<div class="col-6 col-12-medium col-12-small work card">
-							<span><h3>Jobly</h3>
+							<span>
+								<h3>Jobly</h3>
 
 							</span>
 							<div class="card-body">
 								<img src="images/job.jpg" alt="a man looking for a job with a magnifier" class="image fit rounded">
 
-							<p class="description">A jobs & companies posting website with Node/Express backend and JavaScript/React frontend.
-								<br>
-								<a href="https://github.com/leTpham/react-jobly" class="bi bi-github ghloom"></a> |
-								<a href="https://jobly-ltp.surge.sh/" class="bi bi-globe2"></a>
-							</p>
-						</div>
+								<p class="description">A jobs & companies posting website with Node/Express backend and JavaScript/React
+									frontend.
+									<br>
+									<a href="https://github.com/leTpham/react-jobly" class="bi bi-github ghloom"></a> |
+									<a href="https://jobly-ltp.surge.sh/" class="bi bi-globe2"></a>
+								</p>
+							</div>
 
 						</div>
 
 						<div class="col-6 col-12-medium col-12-small work card">
-							<span><h3>Warbler</h3></span>
+							<span>
+								<h3>Warbler</h3>
+							</span>
 							<div class="card-body">
 								<img src="images/warbler.jpg" alt="picture of a yellow warbler" class="image fit rounded">
 								<p class="description">A Twitter clone with Python/Flask backend and Jinja frontend.
-								<br>
-								<a href="https://github.com/leTpham/warbler" class="bi bi-github ghloom"></a> |
-								<a href="https://ltp-warbler.herokuapp.com/" class="bi bi-globe2"></a>
-							</p>
-						</div>
+									<br>
+									<a href="https://github.com/leTpham/warbler" class="bi bi-github ghloom"></a> |
+									<a href="https://ltp-warbler.herokuapp.com/" class="bi bi-globe2"></a>
+								</p>
+							</div>
 
 						</div>
 
@@ -217,7 +240,7 @@
 				</header>
 				<section>
 					<div class="inner columns divided">
-						<div >
+						<div>
 
 						</div>
 						<div>
@@ -225,11 +248,11 @@
 								<li>
 									<a href="https://github.com/leTpham" class="icon bi-github contact"></a>
 								</li>
-								<li >
+								<li>
 									<a href="https://www.linkedin.com/in/letpham/" class="icon bi-linkedin contact"></a>
 								</li>
 								<li>
-									<a href="mailto: phamtle724@gmail.com"  class="icon bi-envelope contact"></a>
+									<a href="mailto: phamtle724@gmail.com" class="icon bi-envelope contact"></a>
 								</li>
 							</ul>
 						</div>
