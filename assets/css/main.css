@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1386,6 +1387,7 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 		margin-top: 1em;
 		margin-bottom: 0.5em;
+		font-weight: 800;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2210,6 +2212,7 @@ ul.contact-icons {
 	ul.contact-icons > li {
 		margin: 1.25rem 0 0 0;
 		padding-left: 0;
+		display: inline-block;
 	}
 
 		ul.contact-icons > li:before {
@@ -2219,9 +2222,9 @@ ul.contact-icons {
 			line-height: 2.25rem;
 			border-radius: 2.25rem;
 			background-color: white;
-			color: #2e2b37;
+			/* color: #2e2b37; */
 			cursor: default;
-			font-size: 1.125rem;
+			font-size: 1.25rem;
 			margin-right: 1rem;
 			text-align: center;
 			vertical-align: middle;
@@ -2449,3 +2452,4 @@ a:visited {
 .slide {
 	text-align: center;
 }
+
