@@ -1377,12 +1377,13 @@ input, select, textarea {
 	h2 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
-		margin-bottom: 1.5em;
+		margin-bottom: 0em;
 	}
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
+		margin-top: 1em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2395,6 +2396,16 @@ a:hover {
 	transition: .5s ease;
 }
 
+.description a{
+	color: white;
+}
+
+.description a:hover{
+	color: rgb(228, 87, 87);
+}
+
+
+
 
 .work {
 	transition: transform 0.7s;
@@ -2413,7 +2424,7 @@ a:hover {
 }
 
 .work:hover .image {
-	filter: brightness(0.5)
+	filter: brightness(0.3)
 }
 
 
@@ -2428,6 +2439,4 @@ a:hover {
 .ghloom {
 	text-align:center;
 	font-size: 1em;
-	margin-bottom: -2em;
-	margin-top: 0.5em;
 }
