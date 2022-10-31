@@ -1401,7 +1401,7 @@ body {
 	background-repeat: repeat, no-repeat;
 	background-size: auto, 100% 100%;
 	background-attachment: fixed;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 }
 
 body.is-preload *,
@@ -2583,4 +2583,9 @@ a:visited {
 
 .slide {
 	text-align: center;
+}
+
+.quote {
+	color:#151212d5;
+	font-size: 1em;
 }
