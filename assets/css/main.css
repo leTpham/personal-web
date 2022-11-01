@@ -2105,7 +2105,7 @@ body.is-preload #wrapper {
 	transition: opacity 0.25s ease-in-out;
 	margin-bottom: 0;
 	position: relative;
-	padding: 3em 3em 4em 3em;
+	padding: 3em 3em 1em 3em;
 	width: 100%;
 }
 
