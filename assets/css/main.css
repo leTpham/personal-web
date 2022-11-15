@@ -1976,6 +1976,7 @@ ul.actions li:first-child {
 	transition: opacity .25s ease-in-out;
 	width: 5.5em;
 	margin-left: -2.75em;
+	letter-spacing: 0.1em;
 }
 
 #nav a span:after {
@@ -2188,6 +2189,7 @@ body.is-preload #wrapper {
 	position: absolute;
 	right: 0;
 	top: 50%;
+	bottom: 0;
 	margin-top: -1.375em;
 	width: 2em;
 	height: 2.75em;
@@ -2296,6 +2298,7 @@ body.is-preload #wrapper {
 	text-align: center;
 	padding: 2em 0 0 0;
 	font-size: 0.75em;
+	letter-spacing: 0.15em;
 }
 
 #footer a {
@@ -2597,7 +2600,7 @@ a:visited {
 }
 
 #projects {
-	padding: 2em 1em 1em 1em !important;
+	padding: 2em 1em 0em 1em !important;
 }
 
 .project-list {
@@ -2617,10 +2620,21 @@ a:visited {
 #skills {
 	padding: 2em 2em !important;
 	height: auto;
+	letter-spacing: normal;
 }
 
 .skill-cols {
 	margin-top: 0;
 	margin-left: 0.5em;
 	display: flex;
+}
+
+.creds {
+	color: black;
+	letter-spacing: 0.075em;
+}
+
+small {
+	font-size: 90%;
+	margin: 0 0;
 }
