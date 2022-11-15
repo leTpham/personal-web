@@ -1696,8 +1696,8 @@ header>p {
 	display: block;
 	margin: auto;
 	/* width: 100%; */
-	width: 18em;
-	height: 18em;
+	width: 10em;
+	height: 10em;
 	object-fit: cover;
 	transition: .5s ease;
 
@@ -2182,7 +2182,8 @@ body.is-preload #wrapper {
 	object-position: center;
 }
 
-#main>.panel.intro .pic .arrow, .sub-arrow {
+#main>.panel.intro .pic .arrow,
+.sub-arrow {
 	display: block;
 	position: absolute;
 	right: 0;
@@ -2204,18 +2205,21 @@ body.is-preload #wrapper {
 	opacity: 0.25
 }
 
-#main>.panel.intro .pic .arrow:before, .sub-arrow:before {
+#main>.panel.intro .pic .arrow:before,
+.sub-arrow:before {
 	position: relative;
 	padding-right: 0;
 	top: 0.125em;
 }
 
-#main>.panel.intro .pic .arrow span, .sub-arrow span {
+#main>.panel.intro .pic .arrow span,
+.sub-arrow span {
 	display: block;
 	text-indent: -9999px;
 }
 
-#main>.panel.intro .pic:hover .arrow, .sub-arrow:hover {
+#main>.panel.intro .pic:hover .arrow,
+.sub-arrow:hover {
 	width: 3em;
 	padding-right: 0.25em;
 	opacity: 0.75;
@@ -2547,11 +2551,10 @@ a:visited {
 }
 
 
-
-
 .work {
 	transition: transform 0.7s;
 	color: rgb(1, 0, 0);
+	padding: 0 0;
 }
 
 
@@ -2588,6 +2591,17 @@ a:visited {
 }
 
 .quote {
-	color:#151212d5;
+	color: #151212d5;
 	font-size: 1em;
+}
+
+#projects {
+	padding: 2rem 2rem !important;
+}
+
+.project-list {
+	display: flex;
+	justify-items: space-between;
+	margin: auto;
+	align-items:flex-end;
 }
