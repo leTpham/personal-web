@@ -1502,7 +1502,7 @@ h5,
 h6 {
 	font-size: 1.25em;
 	letter-spacing: -0.015em;
-	margin-top: 1em;
+	margin-top: 0em;
 	margin-bottom: 0.5em;
 	font-weight: 800;
 }
@@ -2598,7 +2598,6 @@ a:visited {
 
 #projects {
 	padding: 2em 1em 1em 1em !important;
-	width: 70em;
 }
 
 .project-list {
@@ -2606,5 +2605,22 @@ a:visited {
 	flex-direction: row;
 	justify-items: space-between;
 	align-items:flex-end;
-	margin: auto;
+	margin-left:0.25em;
+	margin-right:0.25em;
+}
+
+.frame-tools {
+	display: flex;
+	align-items: stretch;
+}
+
+#skills {
+	padding: 2em 2em !important;
+	height: auto;
+}
+
+.skill-cols {
+	margin-top: 0;
+	margin-left: 0.5em;
+	display: flex;
 }
