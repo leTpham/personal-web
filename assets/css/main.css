@@ -1397,7 +1397,7 @@ html {
 }
 
 body {
-	background-image: url("images/overlay.png"), url("images/bg.jpg");
+	background-image: url("images/overlay.png"), url("images/snow.png");
 	background-repeat: repeat, no-repeat;
 	background-size: auto, 100% 100%;
 	background-attachment: fixed;
@@ -1423,7 +1423,7 @@ textarea,
 select {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	color: #777777;
+	color: #000000;
 	font-size: 20pt;
 	line-height: 1.75em;
 }
@@ -1481,7 +1481,7 @@ h4,
 h5,
 h6 {
 	font-weight: 400;
-	color: #363636;
+	color: #2e2b2b;
 }
 
 h1 {
@@ -1599,7 +1599,7 @@ table.default thead {
 form label {
 	display: block;
 	font-weight: 400;
-	color: #363636;
+	color: #232222;
 	margin: 0 0 1em 0;
 }
 
